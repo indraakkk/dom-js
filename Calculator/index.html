@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" class="bg-warning">
+
+<head>
+    <title>Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+
+
+    
+    <div class="bg-warning">
+        <!-- calculator title -->
+        <h1 class="display-4 text-center text-light mt-2">Simple Calculator</h1>
+        <!-- calculator design-->
+        <!-- calculator form -->
+        <!-- <div id="disp"></div> -->
+        <div class="jumbotron col-xs-6 col-md-6 bg-dark">
+            <div class="col">
+                <input id="numberscreen" type="text" class="form-control text-left">
+            </div>
+
+            <!-- first line of button -->
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex col-xs col-md col mt-2">
+                        <button id="ce" type="button" class="btn btn-danger col-xs col-md col-2">CE</button>
+                        <button id="c" type="button" class="btn btn-danger col-xs col-md col-2">C</button>
+                        <button id="±" type="button" class="btn btn-light col-xs col-md col-2">&plusmn;</button>
+                        <button id="²" type="button" class="btn btn-light col-xs col-md-2 operator">n&#178;</button>
+                        <button id="√" type="button" class="btn btn-light col-xs col-md-2 operator">&radic;</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex col-xs col-md col">
+                        <button id="7" type="button" class="btn btn-light col-xs col-md col-2 numbers">7</button>
+                        <button id="8" type="button" class="btn btn-light col-xs col-md col-2 numbers">8</button>
+                        <button id="9" type="button" class="btn btn-light col-xs col-md col-2 numbers">9</button>
+                        <button id="×" type="button" class="btn btn-light col-xs col-md-2 operator">&times;</button>
+                        <button id="div" type="button" class="btn btn-light col-xs col-md-2 operator">&divide;</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex col-xs col-md col">
+                        <button id="4" type="button" class="btn btn-light col-xs col-md col-2 numbers">4</button>
+                        <button id="5" type="button" class="btn btn-light col-xs col-md col-2 numbers">5</button>
+                        <button id="6" type="button" class="btn btn-light col-xs col-md col-2 numbers">6</button>
+                        <button id="◯" type="button" class="btn btn-light col-xs-4 col-md-4">&#9711;</button>
+                        <button id="◲" type="button" class="btn btn-light col-xs-4 col-md-4">&#x25F2;</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex col-xs col-md col">
+                        <button id="1" type="button" class="btn btn-light col-xs col-md col-2 numbers">1</button>
+                        <button id="2" type="button" class="btn btn-light col-xs col-md col-2 numbers">2</button>
+                        <button id="3" type="button" class="btn btn-light col-xs col-md col-2 numbers">3</button>
+                        <button id="-" type="button" class="btn btn-light col-xs-4 col-md-4">-</button>
+                        <button id="+" type="button" class="btn btn-light col-xs-4 col-md-4">+</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-flex col-xs col-md col">
+                        <button id="%" type="button" class="btn btn-light col-xs col-md">%</button>
+                        <button id="0" type="button" class="btn btn-light col-xs col-md numbers">0</button>
+                        <button id="dec" type="button" class="btn btn-light col-xs col-md">.</button>
+                        <button id="ans" type="button" class="btn btn-primary col-xs-6 col-md-6 col-6">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-fluid bg-warning">
+        <div class="container pt-1">
+            <h1 class="display-4 text-center text-light mt-3 mb-4">Simple Calculators</h1>
+            <div class="jumbotron col-xl-4 col-xl-offset-4 col-md-6 col-md-offset-3 p-x-3 p-y-3 col-xs-12 bg-inverse">
+
+            </div>
+
+        </div>
+
+
+    </div> -->
+
+    <script src="./index.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
