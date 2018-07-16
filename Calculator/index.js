@@ -4,6 +4,7 @@
 
 // setup DOM (document object model)
 var numberScreen = 'numberscreen';
+
 var numBtns = document.getElementsByClassName('number');
 var operators = document.getElementsByClassName('operator');
 
